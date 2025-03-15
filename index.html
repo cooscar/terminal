@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Terminal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="517237.png">
+</head>
+<body>
+    <div class="container">
+        <p class="title">web terminal</p>
+        <p class="about">a simple web-based terminal. Run the command 'help' for commands <br> If you have any questions you wish to ask, just msg my discord</p>
+        <p class="copyright">&copy; 2025 oscar ford. all rights reserved.</p>
+    </div>
+    
+    <div class="terminal">
+        <div class="output" id="terminal-output"></div>
+        <div class="input-line">
+            <span class="prefix">terminal@web-terminal ~ $</span> 
+            <span id="user-input"></span><span class="cursor">▌</span>
+            <input type="text" id="terminal-input" autofocus>
+        </div>
+    </div>
+    
+    <script src="source.js"></script>
+</body>
+</html>
