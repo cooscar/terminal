@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
             case "bio":
                 return "Hi, I'm a high school student with hopes of becoming a full stack dev. \n I am familiar with multiple languages and this is my summary of sorts.";
             case "projects":
-                return "I have a few projects on my GitHub, most of which are private, none of which particularly stand out, other than my Discord bot. \n I am very familiar with Discord bots and if you have any bot requests feel free to hmu on Discord, just run the command `discord`";
+                return "I have a few projects on my GitHub. \n I am very familiar with Discord bots and if you have any bot requests feel free to hmu on Discord, just run the command `discord`";
             case "discord":
                 return 'My discord is <a href="https://discord.com/users/884805614591676426" target="_blank" style="color:rgb(117, 120, 124);">https://discord.com/users/884805614591676426</a>'
             case "ip":
