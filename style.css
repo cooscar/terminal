@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #000;
-    color: #4a4f58;
+    background-color: #735858;
+    color: #8d8d8d;
     font-family: "Fira Code", monospace;
     font-size: 16px;
     line-height: 1.4;
@@ -38,7 +38,7 @@ body {
     white-space: pre-wrap;
     overflow-y: auto;
     flex-grow: 1;
-    color: #ffffff;
+    color: #87ebff;
 }
 
 .input-line {
