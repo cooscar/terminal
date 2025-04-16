@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     async function executeCommand(command) {
         switch (command.toLowerCase()) {
             case "help":
-                return "Available commands:\n- help: Show available commands\n- clear: Clear the terminal\n- echo [text]: Print text \n- github: Get the link to my github \n- bio: Get a short and brief bio about me \n- projects: get a list of my projects \n- discord: Get my discord \n- ip: Get your current ip address \n- game: Get the link to BitZap";
+                return "Available commands:\n- help: Show available commands\n- clear: Clear the terminal\n- echo [text]: Print text \n- github: Get the link to my github \n- bio: Get a short and brief bio about me \n- projects: get a list of my projects \n- discord: Get my discord \n- ip: Get your current ip address \n- game: Get the link to BitZap \n- minecraft: Get a brief description of my minecraft server development experience";
             case "clear":
                 terminalOutput.innerHTML = "";
                 return "";
@@ -88,7 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 return "";
             case "game":
                 return 'Bit zap is a small game i made: <a href="https://cooscar.github.io/Bit-Zap/menu.html" target="_blank" style="color:rgb(117, 120, 124);">https://cooscar.github.io/Bit-Zap/menu.html</a>'
-    
+            case "minecraft":
+                return 'I am an ample minecraft developer, I have made multiple servers. I can make plugins and skript, if you have any requests for server development just dm me on discord.';
             default:
                 if (command.startsWith("echo ")) {
                     return command.slice(5);
